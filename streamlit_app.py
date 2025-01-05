@@ -11,8 +11,7 @@ load_dotenv()
 # API = st.sidebar.text_input("Add your API key:")
 
 OpenAI_API = os.getenv('OpenAI_API_KEY')
-# os.environ['OPENAI_API_KEY'] = OpenAI_API
-os.environ['OPENAI_API_KEY'] = OpenAI_API_KEY
+os.environ['OPENAI_API_KEY'] = OpenAI_API
 
 client = OpenAI()
 

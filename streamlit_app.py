@@ -1,5 +1,5 @@
-pip install OpenAI
-pip install load_dotenv
+!pip install openai ## Commented as already Installed
+!pip install load_dotenv
 import os
 import base64
 import requests

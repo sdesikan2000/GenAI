@@ -17,8 +17,7 @@ client = OpenAI()
 
 def predict(prompt):
     completion = client.chat.completions.create(
-        # model="ft:gpt-4o-mini-2024-07-18:personal:saas-custom-fine-tuned-model:AfOs4E02",
-        model="ft:gpt-4o-mini-2024-07-18:personal:saas-new-custom-fine-tuned-model:B3gdkYBK",
+        model="ft:gpt-4o-mini-2024-07-18:personal:saas-new-custom-fine-tuned-model:B3mAJCVY",
         messages=[
            # {"role": "system", "content": "You are a helpful assistant which acts as FAQ Support Assistant for the TMLC Guided Projects in Generative AI Program and answer to user queries."},
             {"role": "system", "content": "You are a helpful assistant which acts as Support Assistant for the SaaS Product Support Questions."},
